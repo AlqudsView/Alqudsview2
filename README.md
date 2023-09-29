@@ -92,6 +92,49 @@
             <img class="rounded" height="80px" src="https://amenomenu.com/images/users_logos/30_1683570332.jpg" alt="">
         </a>
     </div>
+
+
+
+
+ <!-- Button with a link -->
+
+<div class="button-container">
+
+  <style>
+        /* Style for the button container */
+        .button-container {
+            position: fixed;
+            top: 20px; /* Adjust this value to control the vertical position */
+            right: 20px; /* Adjust this value to control the horizontal position */
+        }
+
+        /* Style for the button */
+        .my-button {
+            padding: 10px 20px;
+            background-color: #383c40; /* Change this to your desired button color */
+            color: #a4a7a9 ; /* Change this to your desired text color */
+            border: none;
+
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Hover effect for the button */
+        .my-button:hover {
+            background-color: #0056b3; /* Change this to the hover color */
+        }
+    </style>
+</head>
+<body>
+    <!-- Button container for positioning -->
+    <div class="button-container">
+        <!-- Button with a link -->
+        <a href=" https://alqudsview.github.io/" class="my-button">English Menu</a>
+    </div>
+
+
+
+    
 </header>
             <!-- Content -->
             <div id="content">
