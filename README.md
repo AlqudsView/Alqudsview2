@@ -23,36 +23,44 @@
     <meta property="og:type" content="website"/>
     <meta itemprop="image" content="https://amenomenu.com/images/users_logos/30_1683570332.jpg">
 	
-	 <style>
-        body {
-            margin: 0; /* Remove default margin to ensure full-screen image */
-            padding: 0; /* Remove default padding */
-            background-image: url('https://i.postimg.cc/pr7vj6pL/Screenshot-6.png'); /* Replace with your image URL */
-            background-size: cover; /* Cover the entire viewport */
-            background-repeat: no-repeat;
-            background-attachment: fixed; /* Optional, makes the background image fixed while scrolling */
-            font-family: 'Your Font', sans-serif; /* Replace 'Your Font' with your preferred font */
-            color: #fff; /* Text color on the background */
-        }
+	<style>
+	 /* Default styles for larger screens */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.postimg.cc/jdN2dH2T/background2.jpg');
+    background-size: cover; /* Make the background image cover the entire viewport */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional, makes the background image fixed while scrolling */
+    font-family: 'Your Font', sans-serif; /* Replace 'Your Font' with your preferred font */
+    color: #fff; /* Text color on the background */
+}
 
-        header {
-            /* Styles for the header */
-            background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background for the header */
-            padding: 18px; /* Adjust the padding as needed */
-        }
+header {
+    /* Styles for the header */
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background for the header */
+    padding: 18px; /* Adjust the padding as needed */
+}
 
-        
+/* Optional: Add styles to your content within the header and footer */
+.header-content, .footer-content {
+    /* Styles for the content inside the header and footer */
+}
 
-        /* Optional: Add styles to your content within the header and footer */
-        .header-content, .footer-content {
-            /* Styles for the content inside the header and footer */
-        }
+/* Optional: Customize other elements on your page */
+.content {
+    padding: 10px;
+}
 
-        /* Optional: Customize other elements on your page */
-        .content {
-            padding: 10px;
-        }
-		
+/* Adjustments for smaller screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    body {
+        background-size: cover; /* Ensure the background image still covers the entire viewport on mobile */
+    }
+    header {
+        padding: 10px;
+    }
+}
     </style>
     <!-- Favicons -->
     <link rel="shortcut icon" href="https://amenomenu.com/images/users_logos/30_1683570332.jpg">
