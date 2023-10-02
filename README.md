@@ -23,13 +23,13 @@
     <meta property="og:type" content="website"/>
     <meta itemprop="image" content="https://amenomenu.com/images/users_logos/30_1683570332.jpg">
 	
-	<style>
-	 /* Default styles for larger screens */
+   <style>
+/* Default styles for larger screens */
 body {
     margin: 0;
     padding: 0;
-    background-image: url('https://i.postimg.cc/jdN2dH2T/background2.jpg');
-    background-size: cover; /* Make the background image cover the entire viewport */
+    background-image: url('https://i.postimg.cc/pr7vj6pL/Screenshot-6.png');
+    background-size: auto; /* Set the background image size to its original size */
     background-repeat: no-repeat;
     background-attachment: fixed; /* Optional, makes the background image fixed while scrolling */
     font-family: 'Your Font', sans-serif; /* Replace 'Your Font' with your preferred font */
@@ -55,12 +55,13 @@ header {
 /* Adjustments for smaller screens (max-width: 768px) */
 @media screen and (max-width: 768px) {
     body {
-        background-size: cover; /* Ensure the background image still covers the entire viewport on mobile */
+        background-size: auto; /* Set the background image size to its original size on mobile */
     }
     header {
         padding: 10px;
     }
 }
+
     </style>
     <!-- Favicons -->
     <link rel="shortcut icon" href="https://amenomenu.com/images/users_logos/30_1683570332.jpg">
