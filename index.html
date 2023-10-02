@@ -27,7 +27,7 @@
         body {
             margin: 0; /* Remove default margin to ensure full-screen image */
             padding: 0; /* Remove default padding */
-            background-image: url('https://i.postimg.cc/jdN2dH2T/background2.jpg'); /* Replace with your image URL */
+            background-image: url('https://i.postimg.cc/pr7vj6pL/Screenshot-6.png'); /* Replace with your image URL */
             background-size: cover; /* Cover the entire viewport */
             background-repeat: no-repeat;
             background-attachment: fixed; /* Optional, makes the background image fixed while scrolling */
