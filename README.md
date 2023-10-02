@@ -22,7 +22,38 @@
     <meta property="og:image:alt" content="Talet Al Qodus"/>
     <meta property="og:type" content="website"/>
     <meta itemprop="image" content="https://amenomenu.com/images/users_logos/30_1683570332.jpg">
+	
+	 <style>
+        body {
+            margin: 0; /* Remove default margin to ensure full-screen image */
+            padding: 0; /* Remove default padding */
+            background-image: url('https://i.postimg.cc/jdN2dH2T/background2.jpg'); /* Replace with your image URL */
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Optional, makes the background image fixed while scrolling */
+            font-family: 'Your Font', sans-serif; /* Replace 'Your Font' with your preferred font */
+            color: #fff; /* Text color on the background */
+        }
 
+        header {
+            /* Styles for the header */
+            background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background for the header */
+            padding: 18px; /* Adjust the padding as needed */
+        }
+
+        
+
+        /* Optional: Add styles to your content within the header and footer */
+        .header-content, .footer-content {
+            /* Styles for the content inside the header and footer */
+        }
+
+        /* Optional: Customize other elements on your page */
+        .content {
+            padding: 10px;
+        }
+		
+    </style>
 
     <!-- Favicons -->
     <link rel="shortcut icon" href="https://amenomenu.com/images/users_logos/30_1683570332.jpg">
@@ -81,15 +112,13 @@
 </header>
             <!-- Header / End -->
 
-            <header id="header-mobile" class="light">
+            <header id="header-mobile" class="light" style="background-image: url('https://i.postimg.cc/Z57bSdMP/background.jpg'); backdrop-filter: blur(15px);">
 
-    <div class="module module-nav-toggle">
-        <a href="#" id="nav-toggle" data-toggle="panel-mobile"><span></span><span></span><span></span><span></span></a>
-    </div>
+
 
     <div class="module module-logo mb-2 mt-2">
         <a href="">
-            <img class="rounded" height="80px" src="https://amenomenu.com/images/users_logos/30_1683570332.jpg" alt="">
+<img class="rounded" height="80px" src="https://i.postimg.cc/vHv22RPk/30-1683570332-removebg-preview.png" alt="" onmouseover="this.style.transform='scale(1.2)';" onmouseout="this.style.transform='scale(1)';">
         </a>
     </div>
 
@@ -132,9 +161,7 @@
         <a href=" https://alqudsview.github.io/" class="my-button">English Menu</a>
     </div>
 
-
-
-    
+                
 </header>
             <!-- Content -->
             <div id="content">
@@ -143,21 +170,21 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="mb-0" style="font-family:  'Reem Kufi', cursive; font-weight:bold; font-size: 2.5rem !important;">Talet Al Qodus</h2>
+					
+                     <h2 class="mb-0" style="font-family: 'Reem Kufi', cursive; font-weight: bold; font-size: 2.5rem !important; color: white; text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);">Talet Al Qodus</h2>
                         
                     </div>
                 </div>
             </div>
         </div>
-        
         <!-- Page Content -->
         <div class="page-content">
             <div class="container">
                 <div class="row no-gutters">
                     <div class="col-md-12" role="tablist">
-                                                                                <div id="category125" class="menu-category">
-                                <div class="menu-category-title collapse-toggle" role="tab" data-target="#content125" data-toggle="collapse" aria-expanded="false">
-                                    <div class="bg-image">
+<div id="category125" class="menu-category" style="border-radius: 10px; overflow: hidden;">
+    <div class="menu-category-title collapse-toggle" role="tab" data-target="#content125" data-toggle="collapse" aria-expanded="false">
+        <div class="bg-image" style="opacity: 1.0;"> <!-- Adjust opacity as needed -->
                                         <img src="https://amenomenu.com/images/products_categories_images/1765144003530505.jpeg" alt="">
                                     </div>
                                                                             <h2 class="title">الفطور</h2>
@@ -628,9 +655,9 @@
                                                                             
                                 </div>
                             </div>
-                                                                                                            <div id="category126" class="menu-category">
-                                <div class="menu-category-title collapse-toggle" role="tab" data-target="#content126" data-toggle="collapse" aria-expanded="false">
-                                    <div class="bg-image">
+                                          <div id="category126" class="menu-category" style="border-radius: 10px; overflow: hidden;">
+    <div class="menu-category-title collapse-toggle" role="tab" data-target="#content126" data-toggle="collapse" aria-expanded="false">
+        <div class="bg-image" style="opacity: 1.0;"> <!-- Adjust opacity as needed -->
                                         <img src="https://amenomenu.com/images/products_categories_images/1765144091514435.webp" alt="">
                                     </div>
                                                                             <h2 class="title">عروض</h2>
@@ -653,13 +680,13 @@
                                                                             
                                 </div>
                             </div>
-                                                                                                            <div id="category127" class="menu-category">
-                                <div class="menu-category-title collapse-toggle" role="tab" data-target="#content127" data-toggle="collapse" aria-expanded="false">
-                                    <div class="bg-image">
-                                        <img src="https://amenomenu.com/images/products_categories_images/1765144333713271.jpg" alt="">
-                                    </div>
-                                                                            <h2 class="title">المشاوي</h2>
-                                                                    </div>
+                             		<div id="category127" class="menu-category" style="border-radius: 10px; overflow: hidden;">
+    <div class="menu-category-title collapse-toggle" role="tab" data-target="#content127" data-toggle="collapse" aria-expanded="false">
+        <div class="bg-image" style="opacity: 1.0;"> <!-- Adjust opacity as needed -->
+            <img src="https://amenomenu.com/images/products_categories_images/1765144333713271.jpg" alt="">
+        </div>
+        <h2 class="title">المشاوي</h2>
+    </div>
                                 <div id="content127" class="menu-category-content collapse">
                                                                                                                         <!-- Menu Item -->
                                             <div class="menu-item menu-list-item text-right" dir=rtl>
@@ -776,13 +803,13 @@
                                                                             
                                 </div>
                             </div>
-                                                                                                            <div id="category128" class="menu-category">
-                                <div class="menu-category-title collapse-toggle" role="tab" data-target="#content128" data-toggle="collapse" aria-expanded="false">
-                                    <div class="bg-image">
-                                        <img src="https://amenomenu.com/images/products_categories_images/1765144358902257.jpg" alt="">
-                                    </div>
-                                                                            <h2 class="title">أطباق طلة القدس</h2>
-                                                                    </div>
+                                                               	<div id="category128" class="menu-category" style="border-radius: 10px; overflow: hidden;">
+    <div class="menu-category-title collapse-toggle" role="tab" data-target="#content128" data-toggle="collapse" aria-expanded="false">
+        <div class="bg-image" style="opacity: 1.0;"> <!-- Adjust opacity as needed -->
+            <img src="https://amenomenu.com/images/products_categories_images/1765144358902257.jpg" alt="">
+        </div>
+        <h2 class="title">اطباق طله القدس</h2>
+    </div>	
                                 <div id="content128" class="menu-category-content collapse">
                                                                                                                         <!-- Menu Item -->
                                             <div class="menu-item menu-list-item text-right" dir=rtl>
@@ -843,13 +870,15 @@
                                                                             
                                 </div>
                             </div>
-                                                                                                            <div id="category129" class="menu-category">
-                                <div class="menu-category-title collapse-toggle" role="tab" data-target="#content129" data-toggle="collapse" aria-expanded="false">
-                                    <div class="bg-image">
-                                        <img src="https://amenomenu.com/images/products_categories_images/1765144392925714.png" alt="">
-                                    </div>
-                                                                            <h2 class="title">فخارات وصواني</h2>
-                                                                    </div>
+							
+                                                         				<div id="category129" class="menu-category" style="border-radius: 10px; overflow: hidden;">
+    <div class="menu-category-title collapse-toggle" role="tab" data-target="#content129" data-toggle="collapse" aria-expanded="false">
+        <div class="bg-image" style="opacity: 1.0;"> <!-- Adjust opacity as needed -->
+            <img src="https://amenomenu.com/images/products_categories_images/1765144392925714.png" alt="">
+        </div>
+        <h2 class="title">فخارات و صواني</h2>
+    </div>	
+	
                                 <div id="content129" class="menu-category-content collapse">
                                                                                                                         <!-- Menu Item -->
                                             <div class="menu-item menu-list-item text-right" dir=rtl>
@@ -924,13 +953,14 @@
                                                                             
                                 </div>
                             </div>
-                                                                                                            <div id="category130" class="menu-category">
-                                <div class="menu-category-title collapse-toggle" role="tab" data-target="#content130" data-toggle="collapse" aria-expanded="false">
-                                    <div class="bg-image">
-                                        <img src="https://amenomenu.com/images/products_categories_images/1765144731942943.webp" alt="">
-                                    </div>
-                                                                            <h2 class="title">باستا</h2>
-                                                                    </div>
+                                                                  								<div id="category130" class="menu-category" style="border-radius: 10px; overflow: hidden;">
+    <div class="menu-category-title collapse-toggle" role="tab" data-target="#content130" data-toggle="collapse" aria-expanded="false">
+        <div class="bg-image" style="opacity: 1.0;"> <!-- Adjust opacity as needed -->
+            <img src="https://amenomenu.com/images/products_categories_images/1765144731942943.webp" alt="">
+        </div>
+        <h2 class="title">باستا</h2>
+    </div>	
+					
                                 <div id="content130" class="menu-category-content collapse">
                                                                                                                         <!-- Menu Item -->
                                             <div class="menu-item menu-list-item text-right" dir=rtl>
@@ -1005,13 +1035,13 @@
                                                                             
                                 </div>
                             </div>
-                                                                                                            <div id="category131" class="menu-category">
-                                <div class="menu-category-title collapse-toggle" role="tab" data-target="#content131" data-toggle="collapse" aria-expanded="false">
-                                    <div class="bg-image">
-                                        <img src="https://amenomenu.com/images/products_categories_images/1765144692757962.webp" alt="">
+                                                       	<div id="category131" class="menu-category" style="border-radius: 10px; overflow: hidden;">
+    <div class="menu-category-title collapse-toggle" role="tab" data-target="#content131" data-toggle="collapse" aria-expanded="false">
+        <div class="bg-image" style="opacity: 1.0;"> <!-- Adjust opacity as needed -->
+ <img src="https://amenomenu.com/images/products_categories_images/1765144692757962.webp" alt="">
                                     </div>
                                                                             <h2 class="title">سلطات ومقبلات</h2>
-                                                                    </div>
+    </div>							
                                 <div id="content131" class="menu-category-content collapse">
                                                                                                                         <!-- Menu Item -->
                                             <div class="menu-item menu-list-item text-right" dir=rtl>
@@ -1366,13 +1396,14 @@
                                                                             
                                 </div>
                             </div>
-                                                                                                            <div id="category132" class="menu-category">
-                                <div class="menu-category-title collapse-toggle" role="tab" data-target="#content132" data-toggle="collapse" aria-expanded="false">
-                                    <div class="bg-image">
+                                                               
+																<div id="category132" class="menu-category" style="border-radius: 10px; overflow: hidden;">
+    <div class="menu-category-title collapse-toggle" role="tab" data-target="#content132" data-toggle="collapse" aria-expanded="false">
+        <div class="bg-image" style="opacity: 1.0;"> <!-- Adjust opacity as needed -->
                                         <img src="https://amenomenu.com/images/products_categories_images/1765146069070623.jpeg" alt="">
                                     </div>
                                                                             <h2 class="title">المقبلات الساخنة</h2>
-                                                                    </div>
+    </div>							
                                 <div id="content132" class="menu-category-content collapse">
                                                                                                                         <!-- Menu Item -->
                                             <div class="menu-item menu-list-item text-right" dir=rtl>
@@ -1489,13 +1520,14 @@
                                                                             
                                 </div>
                             </div>
-                                                                                                            <div id="category221" class="menu-category">
-                                <div class="menu-category-title collapse-toggle" role="tab" data-target="#content221" data-toggle="collapse" aria-expanded="false">
-                                    <div class="bg-image">
-                                        <img src="https://amenomenu.com/images/products_categories_images/1766165532367281.jpeg" alt="">
+                                        
+																<div id="category221" class="menu-category" style="border-radius: 10px; overflow: hidden;">
+    <div class="menu-category-title collapse-toggle" role="tab" data-target="#content221" data-toggle="collapse" aria-expanded="false">
+        <div class="bg-image" style="opacity: 1.0;"> <!-- Adjust opacity as needed -->
+                                           <img src="https://amenomenu.com/images/products_categories_images/1766165532367281.jpeg" alt="">
                                     </div>
                                                                             <h2 class="title">مشروب اليوم</h2>
-                                                                    </div>
+    </div>												
                                 <div id="content221" class="menu-category-content collapse">
                                                                                                                         <!-- Menu Item -->
                                             <div class="menu-item menu-list-item text-right" dir=rtl>
@@ -1514,13 +1546,14 @@
                                                                             
                                 </div>
                             </div>
-                                                                                                            <div id="category133" class="menu-category">
-                                <div class="menu-category-title collapse-toggle" role="tab" data-target="#content133" data-toggle="collapse" aria-expanded="false">
-                                    <div class="bg-image">
-                                        <img src="https://amenomenu.com/images/products_categories_images/1765146929253553.webp" alt="">
+                                       	<div id="category133" class="menu-category" style="border-radius: 10px; overflow: hidden;">
+    <div class="menu-category-title collapse-toggle" role="tab" data-target="#content133" data-toggle="collapse" aria-expanded="false">
+        <div class="bg-image" style="opacity: 1.0;"> <!-- Adjust opacity as needed -->
+               <img src="https://amenomenu.com/images/products_categories_images/1765146929253553.webp" alt="">
                                     </div>
                                                                             <h2 class="title">المشروبات الساخنة</h2>
-                                                                    </div>
+                                                                    </div>							
+
                                 <div id="content133" class="menu-category-content collapse">
                                                                                                                         <!-- Menu Item -->
                                             <div class="menu-item menu-list-item text-right" dir=rtl>
@@ -1875,12 +1908,14 @@
                                                                             
                                 </div>
                             </div>
-                                                                                                            <div id="category134" class="menu-category">
-                                <div class="menu-category-title collapse-toggle" role="tab" data-target="#content134" data-toggle="collapse" aria-expanded="false">
-                                    <div class="bg-image">
-                                        <img src="https://amenomenu.com/images/products_categories_images/1765146304594479.webp" alt="">
+                                              			
+			
+						<div id="category134" class="menu-category" style="border-radius: 10px; overflow: hidden;">
+    <div class="menu-category-title collapse-toggle" role="tab" data-target="#content134" data-toggle="collapse" aria-expanded="false">
+        <div class="bg-image" style="opacity: 1.0;"> <!-- Adjust opacity as needed -->
+                  <img src="https://amenomenu.com/images/products_categories_images/1765146304594479.webp" alt="">
                                     </div>
-                                                                            <h2 class="title">المشروبات الباردة</h2>
+                                                                            <h2 class="title">المشروبات البارده</h2>
                                                                     </div>
                                 <div id="content134" class="menu-category-content collapse">
                                                                                                                         <!-- Menu Item -->
@@ -2138,13 +2173,15 @@
                                                                             
                                 </div>
                             </div>
-                                                                                                            <div id="category135" class="menu-category">
-                                <div class="menu-category-title collapse-toggle" role="tab" data-target="#content135" data-toggle="collapse" aria-expanded="false">
-                                    <div class="bg-image">
-                                        <img src="https://amenomenu.com/images/products_categories_images/1765146417845179.jpg" alt="">
+                                       		
+						<div id="category135" class="menu-category" style="border-radius: 10px; overflow: hidden;">
+    <div class="menu-category-title collapse-toggle" role="tab" data-target="#content135" data-toggle="collapse" aria-expanded="false">
+        <div class="bg-image" style="opacity: 1.0;"> <!-- Adjust opacity as needed -->
+         <img src="https://amenomenu.com/images/products_categories_images/1765146417845179.jpg" alt="">
                                     </div>
                                                                             <h2 class="title">العصائر</h2>
                                                                     </div>
+
                                 <div id="content135" class="menu-category-content collapse">
                                                                                                                         <!-- Menu Item -->
                                             <div class="menu-item menu-list-item text-right" dir=rtl>
@@ -2303,12 +2340,12 @@
                                                                             
                                 </div>
                             </div>
-                                                                                                            <div id="category136" class="menu-category">
-                                <div class="menu-category-title collapse-toggle" role="tab" data-target="#content136" data-toggle="collapse" aria-expanded="false">
-                                    <div class="bg-image">
-                                        <img src="https://amenomenu.com/images/products_categories_images/1765146461085686.jpg" alt="">
+                                                 <div id="category136" class="menu-category" style="border-radius: 10px; overflow: hidden;">
+    <div class="menu-category-title collapse-toggle" role="tab" data-target="#content136" data-toggle="collapse" aria-expanded="false">
+        <div class="bg-image" style="opacity: 1.0;"> <!-- Adjust opacity as needed -->
+         <img src="https://amenomenu.com/images/products_categories_images/1765146461085686.jpg" alt="">
                                     </div>
-                                                                            <h2 class="title">سموذي &amp; موكتل</h2>
+                                                                            <h2 class="title">سموثي و موكتل</h2>
                                                                     </div>
                                 <div id="content136" class="menu-category-content collapse">
                                                                                                                         <!-- Menu Item -->
@@ -2566,10 +2603,10 @@
                                                                             
                                 </div>
                             </div>
-                                                                                                            <div id="category137" class="menu-category">
-                                <div class="menu-category-title collapse-toggle" role="tab" data-target="#content137" data-toggle="collapse" aria-expanded="false">
-                                    <div class="bg-image">
-                                        <img src="https://amenomenu.com/images/products_categories_images/1765146513954500.png" alt="">
+                                   				<div id="category137" class="menu-category" style="border-radius: 10px; overflow: hidden;">
+    <div class="menu-category-title collapse-toggle" role="tab" data-target="#content137" data-toggle="collapse" aria-expanded="false">
+        <div class="bg-image" style="opacity: 1.0;"> <!-- Adjust opacity as needed -->
+                                            <img src="https://amenomenu.com/images/products_categories_images/1765146513954500.png" alt="">
                                     </div>
                                                                             <h2 class="title">ميلك شيك</h2>
                                                                     </div>
@@ -2619,12 +2656,12 @@
                                                                             
                                 </div>
                             </div>
-                                                                                                            <div id="category138" class="menu-category">
-                                <div class="menu-category-title collapse-toggle" role="tab" data-target="#content138" data-toggle="collapse" aria-expanded="false">
-                                    <div class="bg-image">
-                                        <img src="https://amenomenu.com/images/products_categories_images/1765146603281547.jpg" alt="">
+                             									<div id="category138" class="menu-category" style="border-radius: 10px; overflow: hidden;">
+    <div class="menu-category-title collapse-toggle" role="tab" data-target="#content138" data-toggle="collapse" aria-expanded="false">
+        <div class="bg-image" style="opacity: 1.0;"> <!-- Adjust opacity as needed -->
+                          <img src="https://amenomenu.com/images/products_categories_images/1765146603281547.jpg" alt="">
                                     </div>
-                                                                            <h2 class="title">آيس كريم &amp; ثريتس</h2>
+                                                                            <h2 class="title">ايس كريم</h2>
                                                                     </div>
                                 <div id="content138" class="menu-category-content collapse">
                                                                                                                         <!-- Menu Item -->
@@ -2700,13 +2737,13 @@
                                                                             
                                 </div>
                             </div>
-                                                                                                            <div id="category139" class="menu-category">
-                                <div class="menu-category-title collapse-toggle" role="tab" data-target="#content139" data-toggle="collapse" aria-expanded="false">
-                                    <div class="bg-image">
-                                        <img src="https://amenomenu.com/images/products_categories_images/1765146647084741.png" alt="">
+		<div id="category139" class="menu-category" style="border-radius: 10px; overflow: hidden;">
+    <div class="menu-category-title collapse-toggle" role="tab" data-target="#content139" data-toggle="collapse" aria-expanded="false">
+        <div class="bg-image" style="opacity: 1.0;"> <!-- Adjust opacity as needed -->
+                                <img src="https://amenomenu.com/images/products_categories_images/1765146647084741.png" alt="">
                                     </div>
-                                                                            <h2 class="title">الأراجيل</h2>
-                                                                    </div>
+                                                                            <h2 class="title">الاراجيل</h2>
+</div>
                                 <div id="content139" class="menu-category-content collapse">
                                                                                                                         <!-- Menu Item -->
                                             <div class="menu-item menu-list-item text-right" dir=rtl>
@@ -2879,13 +2916,15 @@
                                                                             
                                 </div>
                             </div>
-                                                                                                            <div id="category140" class="menu-category">
-                                <div class="menu-category-title collapse-toggle" role="tab" data-target="#content140" data-toggle="collapse" aria-expanded="false">
-                                    <div class="bg-image">
-                                        <img src="https://amenomenu.com/images/products_categories_images/1765146746474386.png" alt="">
+							
+																<div id="category140" class="menu-category" style="border-radius: 10px; overflow: hidden;">
+    <div class="menu-category-title collapse-toggle" role="tab" data-target="#content140" data-toggle="collapse" aria-expanded="false">
+        <div class="bg-image" style="opacity: 1.0;"> <!-- Adjust opacity as needed -->
+                                <img src="https://amenomenu.com/images/products_categories_images/1765146746474386.png" alt="">
                                     </div>
                                                                             <h2 class="title">حلويات</h2>
-                                                                    </div>
+</div>				
+
                                 <div id="content140" class="menu-category-content collapse">
                                                                                                                         <!-- Menu Item -->
                                             <div class="menu-item menu-list-item text-right" dir=rtl>
@@ -3054,7 +3093,7 @@
 
     <div class="container">
         <!-- Footer 1st Row -->
-        <div class="footer-first-row row" style="background: white;">
+        <div class="footer-first-row row" style="background-color:(255,255,255,0.1); backdrop-filter: blur(2.75px);">
             
                 
             
@@ -3064,7 +3103,7 @@
 
             <div class="col-lg-12 col-md-12 text-center">
 
-                <h5 class="mb-3" style="color: #383c40;">Social Media</h5>
+                <h5 class="mb-0" style="font-family: 'Reem Kufi', cursive; font-weight: bold; font-size: 2.5rem !important; color: white; text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);">Social Media</h5>
                                     <a href="tel:+962791137888" class="icon icon-social icon-circle icon-sm icon-facebook ">
                         <i class="fa fa-phone"></i>
                     </a>
@@ -3085,10 +3124,10 @@
     </div>
     <div class="bg-dark">
         
-        <!-- Footer 2nd Row -->
-       
+      
         </div>
     </div>
+
 
     <!-- Back To Top -->
     <button id="back-to-top" class="back-to-top"><i class="ti ti-angle-up"></i></button>
