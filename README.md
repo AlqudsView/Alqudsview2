@@ -3046,10 +3046,29 @@ header {
                                                     </div>
                                                                                                     </div>
                                             </div>
-                                                                                                                                                                <!-- Menu Item -->
-                                            <div class="menu-item menu-list-item text-right" dir=rtl>
+                                                                                                                                                   
+
+
+
+                                                                                                                                 <!-- Menu Item -->
+					<div class="menu-item menu-list-item text-right" dir=rtl>
                                                 <div class="row align-items-center">
                                                     
+                                                    <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+                                                        <h6 class="mb-0">حلو خشخش</h6>
+                                                        <span class="text-muted text-sm"></span>
+                                                    </div>
+                                                                                                        <div class="col-sm-6 text-sm-left">
+                                                        <span class="text-md ml-4 font-weight-bold"> <span data-product-base-price>2.00 JOD</span></span>
+                                                        
+                                                    </div>
+                                                                                                    </div>
+                                            </div>
+
+      
+                                            <div class="menu-item menu-list-item text-right" dir=rtl>
+                                                <div class="row align-items-center">
+                                                                                                                                                  <!-- Menu Item -->
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
                                                         <h6 class="mb-0">قالب كيك وسط 10 أشخاص</h6>
                                                         <span class="text-muted text-sm"></span>
