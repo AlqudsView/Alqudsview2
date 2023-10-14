@@ -2934,6 +2934,40 @@ header {
 </div>				
 
                                 <div id="content140" class="menu-category-content collapse">
+
+
+
+                                                                                                                                                                <!-- Menu Item -->
+                                            <div class="menu-item menu-list-item text-right" dir=rtl>
+                                                <div class="row align-items-center">
+                                                    
+                                                    <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+                                                        <h6 class="mb-0">كريب كلاستك</h6>
+                                                        <span class="text-muted text-sm">اضافة فواكة (فرولة +كيوي +موز) :  0.75   / اضافة شوكلت (m&amp;m او flake او orea او kinder ) : 0.5.       /    اضافة سكوب ايس كريم : 0.75</span>
+                                                    </div>
+                                                                                                        <div class="col-sm-6 text-sm-left">
+                                                        <span class="text-md ml-4 font-weight-bold"> <span data-product-base-price>3.50 JOD</span></span>
+                                                        
+                                                    </div>
+                                                                                                    </div>
+                                            </div>
+                                                                                                                                                                <!-- Menu Item -->
+                                            <div class="menu-item menu-list-item text-right" dir=rtl>
+                                                <div class="row align-items-center">
+                                                    
+                                                    <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+                                                        <h6 class="mb-0">وافل</h6>
+                                                        <span class="text-muted text-sm">اضافة فواكة (فرولة +كيوي +موز) : 0.75 / اضافة شوكلت (m&amp;m او flake او orea او kinder ) : 0.5. / اضافة سكوب ايس كريم : 0.75</span>
+                                                    </div>
+                                                                                                        <div class="col-sm-6 text-sm-left">
+                                                        <span class="text-md ml-4 font-weight-bold"> <span data-product-base-price>3.50 JOD</span></span>
+                                                        
+                                                    </div>
+                                                                                                    </div>
+                                            </div>
+
+
+    
                                                                                                                         <!-- Menu Item -->
                                             <div class="menu-item menu-list-item text-right" dir=rtl>
                                                 <div class="row align-items-center">
