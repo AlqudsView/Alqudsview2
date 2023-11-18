@@ -62,6 +62,19 @@
             padding: 10px;
         }
 		
+.sticky-cart-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 100;
+    border-radius: 50%;
+    background-color: #f0c14b; /* Example color */
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+		
     </style>
     <!-- Favicons -->
     <link rel="shortcut icon" href="https://amenomenu.com/images/users_logos/30_1683570332.jpg">
@@ -95,6 +108,10 @@
 <!--        api_key: 'wg_724002823fa738e73b753ec5bf18cacc4'-->
 <!--    });-->
 <!--</>-->
+
+
+
+
 
 </head>
     <!-- Head / End -->
@@ -188,6 +205,24 @@
         }
 		
 		
+.add-to-cart {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 5px 10px; /* Smaller padding */
+    font-size: 0.8em; /* Smaller font size */
+    border: none; /* No border */
+    border-radius: 10px; /* Slightly smaller rounded corners */
+    text-transform: uppercase; /* Uppercase text */
+    font-weight: bold; /* Bold font */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.add-to-cart:hover {
+    background-color: #45a049; /* Darker shade of green on hover */
+}
+
+		
     </style>
 </head>
 <body>
@@ -243,12 +278,14 @@
                                                                             <h2 class="title">الفطور</h2>
                                                                     </div>
                                 <div id="content125" class="menu-category-content collapse">
-                                                                                                                        <!-- Menu Item -->
+                                                                                                                                                                <!-- Menu Item -->
                                             <div class="menu-item menu-list-item text-right" dir=rtl>
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
-                                                        <h6 class="mb-0">صحن فول</h6>
+													<button class="add-to-cart" data-name="صحن فول" data-price="1.70">Add to Cart</button>
+
+                                                        <h6 class="mb-0"> صحن فول</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
                                                                                                         <div class="col-sm-6 text-sm-left">
@@ -262,6 +299,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="صحن فلافل" data-price="1.25">Add to Cart</button>
+
                                                         <h6 class="mb-0">صحن فلافل</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -276,6 +315,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="فخارة بيض" data-price="1.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">فخارة بيض</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -290,6 +331,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="فخارة بيض و جبنة" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">فخارة بيض و جبنة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -304,6 +347,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="فخارة بيض و نقانق" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">فخارة بيض و نقانق</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -316,8 +361,9 @@
                                                                                                                                                                 <!-- Menu Item -->
                                             <div class="menu-item menu-list-item text-right" dir=rtl>
                                                 <div class="row align-items-center">
-                                                    
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="فخارة بيض بالبندورة" data-price="2.25">Add to Cart</button>
+
                                                         <h6 class="mb-0">فخارة بيض بالبندورة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -332,6 +378,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="شنقليش" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">شنقليش</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -346,6 +394,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													 <button class="add-to-cart" data-name="صحن حمص" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">صحن حمص</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -360,6 +410,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="حمص بيروتي" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">حمص بيروتي</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -374,6 +426,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="حمص باللحمة والمكسرات" data-price="5.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">حمص باللحمة والمكسرات</h6>
                                                         <span class="text-muted text-sm">وزن اللحمة الصافي (200غ)</span>
                                                     </div>
@@ -388,6 +442,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="متبل باذنجان" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">متبل باذنجان</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -402,6 +458,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="بابا غنوج" data-price="2.25 ">Add to Cart</button>
+
                                                         <h6 class="mb-0">بابا غنوج</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -416,6 +474,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="تيركي (صغير )" data-price="1.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">تيركي (صغير )</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -430,6 +490,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="زبدة ومربى (مشمش / فراولة )" data-price="1.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">زبدة ومربى (مشمش / فراولة )</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -444,6 +506,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="جبنة صفراء" data-price="1.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">جبنة صفراء</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -458,6 +522,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="جبنة فيتا" data-price="1.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">جبنة فيتا</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -472,6 +538,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="جبنة بيضاء" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">جبنة بيضاء</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -486,6 +554,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="لبنة" data-price="1.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">لبنة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -500,6 +570,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="مقدوس" data-price="1.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">مقدوس</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -514,6 +586,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="زيتون (أسود / أخضر)" data-price="0.80">Add to Cart</button>
+
                                                         <h6 class="mb-0">زيتون (أسود / أخضر)</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -528,6 +602,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name=" مخلل" data-price="1.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">مخلل</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -542,6 +618,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="قلاية بندورة" data-price="2.60">Add to Cart</button>
+
                                                         <h6 class="mb-0">قلاية بندورة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -556,6 +634,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="قلاية بندورة باللحمة والمكسرات" data-price="5.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">قلاية بندورة باللحمة والمكسرات</h6>
                                                         <span class="text-muted text-sm">وزن اللحمة الصافي (250غ)</span>
                                                     </div>
@@ -570,6 +650,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="مفركة بطاطا" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">مفركة بطاطا</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -584,6 +666,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="نقانق بالخضار" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">نقانق بالخضار</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -598,6 +682,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="فتة حمص" data-price="3.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">فتة حمص</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -612,6 +698,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="كبة مقلية (٤ حبات )" data-price="2.15">Add to Cart</button>
+
                                                         <h6 class="mb-0">كبة مقلية (٤ حبات )</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -626,6 +714,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="صحن بطاطا" data-price="2.50 ">Add to Cart</button>
+
                                                         <h6 class="mb-0">صحن بطاطا</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -640,6 +730,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="صحن بطاطا و جبنة" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">صحن بطاطا و جبنة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -654,6 +746,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="سمبوسك 4 حبات" data-price="1.60">Add to Cart</button>
+
                                                         <h6 class="mb-0">سمبوسك 4 حبات</h6>
                                                         <span class="text-muted text-sm">(جبنة)</span>
                                                     </div>
@@ -668,6 +762,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="صحن سيرفس" data-price="1.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">صحن سيرفس</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -682,6 +778,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="قرص عجة" data-price="2.00 JOD">Add to Cart</button>
+
                                                         <h6 class="mb-0">قرص عجة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -696,6 +794,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="موزاريلا ستيك 5 حبات" data-price="2.75">Add to Cart</button>
+
                                                         <h6 class="mb-0">موزاريلا ستيك 5 حبات</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -721,6 +821,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="طبيلة خيرات بلادي" data-name="Item Name" data-price="15.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">طبيلة خيرات بلادي</h6>
                                                         <span class="text-muted text-sm">( عرض فطور)</span>
                                                     </div>
@@ -746,6 +848,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="مشكل 1كيلو" data-price="20.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">مشكل 1كيلو</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -760,6 +864,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="مشكل نصف كيلو" data-price="10.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">مشكل نصف كيلو</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -774,6 +880,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="شقف 1كيلو" data-price="22.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">شقف 1كيلو</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -788,6 +896,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="شقف نصف كيلو" data-price="11.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">شقف نصف كيلو</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -802,6 +912,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="كباب 1 كيلو" data-price="19.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">كباب 1 كيلو</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -816,6 +928,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="كباب نصف كيلو" data-price="9.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">كباب نصف كيلو</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -830,6 +944,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="شيش طاووق 1 كيلو" data-price="18.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">شيش طاووق 1 كيلو</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -844,6 +960,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="شيش طاووق نصف كيلو" data-price="9.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">شيش طاووق نصف كيلو</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -869,6 +987,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="(1/2) صاجية لحمة" data-price="9.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">(1/2) صاجية لحمة</h6>
                                                         <span class="text-muted text-sm">JD 18.00 الكيلو</span>
                                                     </div>
@@ -883,6 +1003,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="فخارة جاج" data-price="6.75">Add to Cart</button>
+
                                                         <h6 class="mb-0">فخارة جاج</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -897,6 +1019,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="صاجية سمك ( 1/2 كيلو)" data-price="6.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">صاجية سمك ( 1/2 كيلو)</h6>
                                                         <span class="text-muted text-sm">الكيلو 12.00 JD</span>
                                                     </div>
@@ -911,6 +1035,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="فخارة دجاج بالكريمة" data-price="7.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">فخارة دجاج بالكريمة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -938,6 +1064,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="صينية كفتة بالبندورة 500غ" data-price="6.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">صينية كفتة بالبندورة 500غ</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -952,6 +1080,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="صينية كفتة بالطحينية 500غ" data-price="6.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">صينية كفتة بالطحينية 500غ</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -966,6 +1096,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="فخارة راس عصفور مع الخضار" data-price="6.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">فخارة راس عصفور مع الخضار</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -981,6 +1113,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="فخارة زنجر" data-price="5.25">Add to Cart</button>
+
                                                         <h6 class="mb-0">فخارة زنجر</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1007,6 +1141,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="فوسيلي وايت صوص" data-price="3.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">فوسيلي وايت صوص</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1021,6 +1157,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="إسباجيتي بلونيز" data-price="3.75">Add to Cart</button>
+
                                                         <h6 class="mb-0">إسباجيتي بلونيز</h6>
                                                         <span class="text-muted text-sm">(لحمة&amp;صوص البندورة)</span>
                                                     </div>
@@ -1035,6 +1173,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="فوتوتشيني" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">فوتوتشيني</h6>
                                                         <span class="text-muted text-sm">JD 3.90  فوتوشيني مع جاج</span>
                                                     </div>
@@ -1049,6 +1189,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="لازانيا باللحمة" data-price="4.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">لازانيا باللحمة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1063,6 +1205,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="بنا اربياتا ( صوص روزية )" data-price="2.60 ">Add to Cart</button>
+
                                                         <h6 class="mb-0">بنا اربياتا ( صوص روزية )</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1088,6 +1232,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="سلطة طلة القدس" data-price="6.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">سلطة طلة القدس</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1102,6 +1248,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="تبولة الأنناس" data-price="3.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">تبولة الأنناس</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1116,6 +1264,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="تبولة" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">تبولة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1131,6 +1281,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="يلنجي" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">يلنجي</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1145,6 +1297,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="سلطة سيزر" data-price="2.80">Add to Cart</button>
+
                                                         <h6 class="mb-0">سلطة سيزر</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1159,6 +1313,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="سيزر مع دجاج" data-price="3.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">سيزر مع دجاج</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1173,6 +1329,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="سلطة فلاحية" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">سلطة فلاحية</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1187,6 +1345,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="بقدونسية" data-price="2.25">Add to Cart</button>
+
                                                         <h6 class="mb-0">بقدونسية</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1201,6 +1361,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="خيار باللبن" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">خيار باللبن</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1215,6 +1377,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="سلطة تركية" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">سلطة تركية</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1229,6 +1393,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="صحن مقبلات مكس" data-price="3.75">Add to Cart</button>
+
                                                         <h6 class="mb-0">صحن مقبلات مكس</h6>
                                                         <span class="text-muted text-sm">(محمرة ، لبنة حارة بالجوز ، سلطة تركية ، متبل شمندر )</span>
                                                     </div>
@@ -1243,6 +1409,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="سلطة جرجير" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">سلطة جرجير</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1257,6 +1425,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="سلطة يونانية" data-price="2.80">Add to Cart</button>
+
                                                         <h6 class="mb-0">سلطة يونانية</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1271,6 +1441,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="سلطة فتوش" data-price="2.70">Add to Cart</button>
+
                                                         <h6 class="mb-0">سلطة فتوش</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1285,6 +1457,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="سلطة ذرة" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">سلطة ذرة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1299,6 +1473,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="سلطة كولسلو" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">سلطة كولسلو</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1313,6 +1489,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="متبل باذنجان" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">متبل باذنجان</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1327,6 +1505,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="صحن حمص" data-price="2.00 ">Add to Cart</button>
+
                                                         <h6 class="mb-0">صحن حمص</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1341,6 +1521,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="Item Name" data-price="1.99">Add to Cart</button>
+
                                                         <h6 class="mb-0">بابا غنوج صغير</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1355,6 +1537,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="صحن لبن رايب" data-price="1.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">صحن لبن رايب</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1369,6 +1553,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="سلطة عربية" data-price="2.15">Add to Cart</button>
+
                                                         <h6 class="mb-0">سلطة عربية</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1383,6 +1569,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="متبل شمندر" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">متبل شمندر</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1397,6 +1585,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="محمرة" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">محمرة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1411,6 +1601,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="لبنة حارة بالجوز" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">لبنة حارة بالجوز</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1437,6 +1629,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="بطاطا حارة" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">بطاطا حارة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1451,6 +1645,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="ناتشوز" data-price="6.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">ناتشوز</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1465,6 +1661,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="كبة مقلية ٤ حبات" data-price="2.15">Add to Cart</button>
+
                                                         <h6 class="mb-0">كبة مقلية ٤ حبات</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1479,6 +1677,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="قلاية بندورة باللحمة والمكسرات" data-price="5.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">قلاية بندورة باللحمة والمكسرات</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1493,6 +1693,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="حمص باللحمة والمكسرات" data-price="5.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">حمص باللحمة والمكسرات</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1507,6 +1709,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="صحن بطاطا بالجبنة" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">صحن بطاطا بالجبنة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1521,6 +1725,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="صحن بطاطا" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">صحن بطاطا</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1535,6 +1741,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="سمبوسك 4 حبات" data-price="1.60">Add to Cart</button>
+
                                                         <h6 class="mb-0">سمبوسك 4 حبات</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1561,6 +1769,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="مشروب تمر الطلة" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">مشروب تمر الطلة</h6>
                                                         <span class="text-muted text-sm">مع رشة قرفة خذو و ادعيلي</span>
                                                     </div>
@@ -1587,6 +1797,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="قهوة تركية سنجل" data-price="1.25">Add to Cart</button>
+
                                                         <h6 class="mb-0">قهوة تركية سنجل</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1601,6 +1813,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="قهوة تركية دبل" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">قهوة تركية دبل</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1615,6 +1829,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="اسبريسو شوت" data-price="1.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">اسبريسو شوت</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1629,6 +1845,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="اسبريسو دبل شوت" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">اسبريسو دبل شوت</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1643,6 +1861,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="اميريكانو كوفي" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">اميريكانو كوفي</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1657,6 +1877,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="ميكاياتو" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">ميكاياتو</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1671,6 +1893,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="كابتشينو" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">كابتشينو</h6>
                                                         <span class="text-muted text-sm">( يتوفر حليب خالي الدسم )  ( اختار النكهة )</span>
                                                     </div>
@@ -1685,6 +1909,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="لاتيه" data-price="1.99">Add to Cart</button>
+
                                                         <h6 class="mb-0">لاتيه</h6>
                                                         <span class="text-muted text-sm">( يتوفر حليب خالي الدسم )  ( اختار النكهة: بندق,كاراميل,فانيلا )</span>
                                                     </div>
@@ -1699,6 +1925,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="كراميل ميكاتو" data-price="2.95">Add to Cart</button>
+
                                                         <h6 class="mb-0">كراميل ميكاتو</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1713,6 +1941,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="قهوة فرنسية" data-price="2.95">Add to Cart</button>
+
                                                         <h6 class="mb-0">قهوة فرنسية</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1727,6 +1957,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="سبانيش لاتيه" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">سبانيش لاتيه</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1741,6 +1973,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="كوفي موكا" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">كوفي موكا</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1755,6 +1989,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="وايت موكا" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">وايت موكا</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1769,6 +2005,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="هوت شوكليت طلة القدس" data-price="3.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">هوت شوكليت طلة القدس</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1783,6 +2021,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="هوت شوكليت" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">هوت شوكليت</h6>
                                                         <span class="text-muted text-sm">بندق / جوز هند</span>
                                                     </div>
@@ -1797,6 +2037,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="قهوة طلة القدس" data-price="2.95">Add to Cart</button>
+
                                                         <h6 class="mb-0">قهوة طلة القدس</h6>
                                                         <span class="text-muted text-sm">( مكونات خاصة )</span>
                                                     </div>
@@ -1811,6 +2053,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="نسكافيه" data-price="2.25">Add to Cart</button>
+
                                                         <h6 class="mb-0">نسكافيه</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1825,6 +2069,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="قهوة استوائية" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">قهوة استوائية</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1839,6 +2085,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="افكاتو" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">افكاتو</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1853,6 +2101,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="كريم بورليه" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">كريم بورليه</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1867,6 +2117,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="شاي" data-price="1.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">شاي</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1881,6 +2133,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="شاي كرك" data-price="1.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">شاي كرك</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1895,6 +2149,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="بندول الطلة" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">بندول الطلة</h6>
                                                         <span class="text-muted text-sm">( الشافي الله بس احنا بنحاول )</span>
                                                     </div>
@@ -1909,6 +2165,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="زهورات" data-price="1.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">زهورات</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1923,6 +2181,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="سحلب" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">سحلب</h6>
                                                         <span class="text-muted text-sm">( اذا مش خطير يرجع )</span>
                                                     </div>
@@ -1950,6 +2210,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="فرابيه طلة القدس" data-price="3.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">فرابيه طلة القدس</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1964,6 +2226,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="فرابيه كرمل" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">فرابيه كرمل</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1978,6 +2242,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="موكا فرابيه" data-price="1.99">Add to Cart</button>
+
                                                         <h6 class="mb-0">موكا فرابيه</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -1992,6 +2258,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="فرابيه ڤنيلا" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">فرابيه ڤنيلا</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2006,6 +2274,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="آيس لاتيه" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">آيس لاتيه</h6>
                                                         <span class="text-muted text-sm">( اختار النكهة )</span>
                                                     </div>
@@ -2020,6 +2290,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="آيس موكا" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">آيس موكا</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2034,6 +2306,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="آيس وايت موكا" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">آيس وايت موكا</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2048,6 +2322,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="آيس كراميل ميكاتو" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">آيس كراميل ميكاتو</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2062,6 +2338,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="آيس تي" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">آيس تي</h6>
                                                         <span class="text-muted text-sm">خوخ / ليمون / باشن فروت</span>
                                                     </div>
@@ -2076,6 +2354,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="موهيتو كلاسك" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">موهيتو كلاسك</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2090,20 +2370,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
-                                                        <h6 class="mb-0">موهيتو فرولة</h6>
-                                                        <span class="text-muted text-sm"></span>
-                                                    </div>
-                                                                                                        <div class="col-sm-6 text-sm-left">
-                                                        <span class="text-md ml-4 font-weight-bold"> <span data-product-base-price>3.00 JOD</span></span>
-                                                        
-                                                    </div>
-                                                                                                    </div>
-                                            </div>
-                                                                                                                                                                <!-- Menu Item -->
-                                            <div class="menu-item menu-list-item text-right" dir=rtl>
-                                                <div class="row align-items-center">
-                                                    
-                                                    <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="موهيتو باشن فروت" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">موهيتو باشن فروت</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2118,6 +2386,24 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="موهيتو باشن فروت" data-price="3.00">Add to Cart</button>
+
+                                                        <h6 class="mb-0">موهيتو باشن فروت</h6>
+                                                        <span class="text-muted text-sm"></span>
+                                                    </div>
+                                                                                                        <div class="col-sm-6 text-sm-left">
+                                                        <span class="text-md ml-4 font-weight-bold"> <span data-product-base-price>3.00 JOD</span></span>
+                                                        
+                                                    </div>
+                                                                                                    </div>
+                                            </div>
+                                                                                                                                                                <!-- Menu Item -->
+                                            <div class="menu-item menu-list-item text-right" dir=rtl>
+                                                <div class="row align-items-center">
+                                                    
+                                                    <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="موهيتو ورد" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">موهيتو ورد</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2132,6 +2418,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="موهيتو راز بيري" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">موهيتو راز بيري</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2146,6 +2434,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="مكس الطاقة" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">مكس الطاقة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2160,6 +2450,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="مكس بلو اوشن" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">مكس بلو اوشن</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2174,6 +2466,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="مشروب غازي" data-price="1.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">مشروبات غازية</h6>
                                                         <span class="text-muted text-sm">( ببسي / ميرندا / سفن )</span>
                                                     </div>
@@ -2188,6 +2482,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="شنينة" data-price="1.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">شنينة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2215,6 +2511,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="برتقال" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">🍊برتقال</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2229,6 +2527,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="ليمون" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">🍋ليمون</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2243,6 +2543,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="ليمون ونعنع" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">🍋🍃ليمون ونعنع</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2257,6 +2559,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="كيوي" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">🥝كيوي</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2271,6 +2575,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="فراولة" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">🍓فراولة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2285,6 +2591,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="مانجا" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">🥭مانجا</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2299,6 +2607,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="اناناس" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">🍍أناناس</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2313,6 +2623,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="كيوي و فرولة" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">🍓🥝كيوي و فرولة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2327,6 +2639,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="فرولة و منجا" data-price="2.99">Add to Cart</button>
+
                                                         <h6 class="mb-0">🍓🥭فرولة و منجا</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2341,6 +2655,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="كيوي و ليمون" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">🥝🍋كيوي و ليمون</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2355,6 +2671,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="مكس فروت" data-price="2.99">Add to Cart</button>
+
                                                         <h6 class="mb-0">🥭🍓🥝مكس فروت</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2380,6 +2698,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="موز وحليب" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">موز وحليب</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2394,6 +2714,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="أفوكادو" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">أفوكادو</h6>
                                                         <span class="text-muted text-sm">مع عسل وفستق حلبي</span>
                                                     </div>
@@ -2408,6 +2730,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="ليمون سموذي" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">ليمون سموذي</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2422,6 +2746,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="يمون ونعنع سموذي" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">ليمون ونعنع سموذي</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2436,6 +2762,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="منجا سموذي" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">منجا سموذي</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2450,6 +2778,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="فرولة سموذي" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">فرولة سموذي</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2464,6 +2794,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="منجا بالريحان" data-price="2.50 ">Add to Cart</button>
+
                                                         <h6 class="mb-0">منجا بالريحان</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2478,6 +2810,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="روكا ليمونيد" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">روكا ليمونيد</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2492,6 +2826,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="ستروبري سور" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">ستروبري سور</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2506,6 +2842,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="بيناكولادا" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">بيناكولادا</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2520,6 +2858,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="جمايكا" data-price="2.50 ">Add to Cart</button>
+
                                                         <h6 class="mb-0">جمايكا</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2534,6 +2874,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="بندول الطلة" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">بندول الطلة</h6>
                                                         <span class="text-muted text-sm">( الله الشافي بس احنا بنحاول )</span>
                                                     </div>
@@ -2548,6 +2890,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="كوكو لاڤندر" data-price="2.50 ">Add to Cart</button>
+
                                                         <h6 class="mb-0">كوكو لاڤندر</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2562,6 +2906,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="باشن فروت كريمي" data-price="3.25">Add to Cart</button>
+
                                                         <h6 class="mb-0">باشن فروت كريمي</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2576,6 +2922,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="بورتا إبل" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">بورتا إبل</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2590,6 +2938,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="سمر ديلايت" data-price="2.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">سمر ديلايت</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2604,6 +2954,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="ديلايت طلة القدس" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">ديلايت طلة القدس</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2618,6 +2970,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="بلادي ميري" data-price="2.50 ">Add to Cart</button>
+
                                                         <h6 class="mb-0">بلادي ميري</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2643,6 +2997,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="ملك شيك طلة القدس" data-price="3.50 ">Add to Cart</button>
+
                                                         <h6 class="mb-0">ملك شيك طلة القدس</h6>
                                                         <span class="text-muted text-sm">ريد ڤيلڤت (اشي من الاخر )</span>
                                                     </div>
@@ -2657,6 +3013,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="ملك شيك نورمل" data-price="2.75">Add to Cart</button>
+
                                                         <h6 class="mb-0">ملك شيك نورمل</h6>
                                                         <span class="text-muted text-sm">( ڤنيلا / شوكلت / فرولة )</span>
                                                     </div>
@@ -2671,6 +3029,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="ملك شيك سبشل" data-price="3.00 ">Add to Cart</button>
+
                                                         <h6 class="mb-0">ملك شيك سبشل</h6>
                                                         <span class="text-muted text-sm">( اوريو / سنكرز / لوتس / كروكان / عربية / تشيز كيك )</span>
                                                     </div>
@@ -2696,6 +3056,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name=">إيس كريم سبشل" data-price="2.25">Add to Cart</button>
+
                                                         <h6 class="mb-0">إيس كريم سبشل</h6>
                                                         <span class="text-muted text-sm">( أوريو / كروكان / تشيز كيك / عربية / لوتس / سنكرز )</span>
                                                     </div>
@@ -2710,6 +3072,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="ايس كريم نورمل" data-price="1.99">Add to Cart</button>
+
                                                         <h6 class="mb-0">ايس كريم نورمل</h6>
                                                         <span class="text-muted text-sm">( فرولة / ڤنيلا / شوكلت )</span>
                                                     </div>
@@ -2724,6 +3088,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="سنو ليدي" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">سنو ليدي</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2738,6 +3104,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="وتي فروتي" data-price="3.00 ">Add to Cart</button>
+
                                                         <h6 class="mb-0">توتي فروتي</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2752,6 +3120,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="ثريو تشوكلت" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">ثريو تشوكلت</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2777,6 +3147,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name=" 🍏🍎تفاحتين نخلة" data-price="4.50">Add to Cart</button>
+
                                                         <h6 class="mb-0"> 🍏🍎تفاحتين نخلة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2791,6 +3163,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="تفاحتين مزايا" data-price="4.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">🍏🍎تفاحتين مزايا</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2805,6 +3179,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="ليمون ونعنع" data-price="4.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">🍋🍃ليمون ونعنع</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2819,6 +3195,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="بطيخ ونعنع" data-price="4.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">🍉🍃بطيخ ونعنع</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2833,6 +3211,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="عنب وتوت" data-price="4.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">🍇🫐عنب وتوت</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2847,6 +3227,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="علكة وقرفة" data-price="4.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">علكة وقرفة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2861,6 +3243,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="كاندي ودربس" data-price="4.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">🍬🍭كاندي ودربس</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2875,6 +3259,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="مستكة" data-price="4.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">مستكة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2889,6 +3275,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="عنب ونعنع" data-price="4.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">🍇🍃عنب ونعنع</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2903,6 +3291,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="علكة ونعنع" data-price="4.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">علكة ونعنع</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2917,6 +3307,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="بلوبيري" data-price="4.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">🫐بلوبيري</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2931,6 +3323,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="علكة سهم" data-price="4.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">علكة سهم</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2946,6 +3340,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="LOVE❤️" data-price="4.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">LOVE❤️</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -2961,6 +3357,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="عنب" data-price="1.99">Add to Cart</button>
+
                                                         <h6 class="mb-0">🍇عنب</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -3001,6 +3399,8 @@
         </div>
         
         <div class="col-sm-4 mb-2 mb-sm-0 text-right">
+		<button class="add-to-cart" data-name="كيكة طلة القدس" data-price="3.00">Add to Cart</button>
+
             <h6 class="mb-0">كيكة طلة القدس</h6>
             <span class="text-muted text-sm"></span>
         </div>
@@ -3021,6 +3421,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="كريب كلاسيك" data-price="3.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">كريب كلاسيك</h6>
                                                         <span class="text-muted text-sm">اضافة فواكة (فرولة +كيوي +موز) :  0.75   / اضافة شوكلت (m&amp;m او flake او orea او kinder ) : 0.5.       /    اضافة سكوب ايس كريم : 0.75</span>
                                                     </div>
@@ -3035,6 +3437,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="وافل" data-price="3.50">Add to Cart</button>
+
                                                         <h6 class="mb-0">وافل</h6>
                                                         <span class="text-muted text-sm">اضافة فواكة (فرولة +كيوي +موز) : 0.75 / اضافة شوكلت (m&amp;m او flake او orea او kinder ) : 0.5. / اضافة سكوب ايس كريم : 0.75</span>
                                                     </div>
@@ -3051,6 +3455,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="فخارة أم علي (5أشخاص)" data-price="6.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">فخارة أم علي (5أشخاص)</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -3065,6 +3471,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="فخارة ام علي (شخصين)" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">فخارة ام علي (شخصين)</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -3083,6 +3491,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="حلو خشخش" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">حلو خشخش</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -3097,6 +3507,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="قالب كيك وسط 10 أشخاص" data-price="10.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">قالب كيك وسط 10 أشخاص</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -3111,6 +3523,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="مهلبيه" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">مهلبية</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -3129,6 +3543,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="كنافة" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">كنافة</h6>
                                                         <span class="text-muted text-sm">خشنة\ناعمة</span>
                                                     </div>
@@ -3163,6 +3579,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="رسمة صغيرة" data-price="2.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">رسمة صغيرة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -3177,6 +3595,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="رسمة كبيرة" data-price="3.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">رسمة كبيرة</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -3191,6 +3611,8 @@
                                                 <div class="row align-items-center">
                                                     
                                                     <div class="col-sm-6 mb-2 mb-sm-0 text-right">
+													<button class="add-to-cart" data-name="رسمة لشخصين" data-price="5.00">Add to Cart</button>
+
                                                         <h6 class="mb-0">رسمة لشخصين</h6>
                                                         <span class="text-muted text-sm"></span>
                                                     </div>
@@ -3261,7 +3683,58 @@
       
         </div>
     </div>
+	
+<style>
+  .cart-popup {
+    position: fixed;
+    bottom: 60px;
+    left: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 101;
+    display: none;
+    width: 300px; /* Adjust the width as needed */
 
+    max-height: 400px; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+	
+#clear-cart {
+    margin-top: 10px; /* Example spacing */
+    background-color: #f44336; /* Example color */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+</style>
+
+	
+	<div id="cart-popup" class="cart-popup">
+    <div id="cart-contents">
+        <!-- Cart items will be dynamically inserted here -->
+    </div>
+    <div class="cart-total">
+       
+    </div>
+    <button id="clear-cart">Clear Cart</button>
+</div>
+
+
+	
+	
+	
+	
+
+<div id="cart-icon" class="sticky-cart-button">
+    <img src="https://i.postimg.cc/F1XFdcNJ/trolley.png" alt="Cart Icon" style="width: 50px; height: 50px;">
+</div>
 
     <!-- Back To Top -->
     <button id="back-to-top" class="back-to-top"><i class="ti ti-angle-up"></i></button>
@@ -3293,6 +3766,63 @@
             <div id="body-overlay"></div>
 
         </div>
+		
+<script>
+		
+document.addEventListener('DOMContentLoaded', function() {
+    var cart = [];
+
+    document.getElementById('cart-icon').addEventListener('click', function() {
+        var popup = document.getElementById('cart-popup');
+        popup.style.display = popup.style.display === 'none' ? 'block' : 'none';
+    });
+
+    document.querySelectorAll('.add-to-cart').forEach(function(button) {
+        button.addEventListener('click', function() {
+            var name = this.getAttribute('data-name');
+            var price = parseFloat(this.getAttribute('data-price'));
+            addToCart(name, price);
+            updateCartDisplay();
+        });
+    });
+
+    document.getElementById('clear-cart').addEventListener('click', function() {
+        clearCart();
+    });
+
+    function addToCart(name, price) {
+        var found = cart.find(item => item.name === name);
+        if (found) {
+            found.quantity += 1;
+        } else {
+            cart.push({ name: name, price: price, quantity: 1 });
+        }
+        updateCartDisplay(); // Update display whenever an item is added
+    }
+
+    function clearCart() {
+        cart = []; // Reset the cart
+        updateCartDisplay(); // Update the display to show an empty cart
+    }
+
+    function updateCartDisplay() {
+        var cartContents = document.getElementById('cart-contents');
+        var html = '';
+        var total = 0;
+
+        cart.forEach(function(item) {
+            var itemTotal = item.price * item.quantity;
+            total += itemTotal;
+            html += `<div>${item.name} - عدد: ${item.quantity} - Sub: ${itemTotal.toFixed(2)} JOD</div>`;
+        });
+
+        html += `<div><strong>Total: ${total.toFixed(2)} JOD</strong></div>`;
+        cartContents.innerHTML = html; // Update only the contents, not the entire popup
+    }
+});
+
+</script>		
+		
 
         <!-- JS Core -->
         <script src="https://amenomenu.com/front/themes/soup/js/core.js"></script>
@@ -3302,15 +3832,8 @@
 <script>(function(d){let s=d.createElement('script');s.async=true;s.src='https://puabvo.com/code/native.js?h=waWQiOjExNjk3MjIsInNpZCI6MTI5OTMwNSwid2lkIjo1MDk1MzAsInNyYyI6Mn0=eyJ';d.head.appendChild(s);})(document);</script>
 
 
+<!-- Add this script at the end of your HTML document or in the head section -->
 
-<script type="text/javascript">
-   var uid = '469145';
-   var wid = '705777';
-   var pop_tag = document.createElement('script');pop_tag.src='//cdn.popcash.net/show.js';document.body.appendChild(pop_tag);
-   pop_tag.onerror = function() {pop_tag = document.createElement('script');pop_tag.src='//cdn2.popcash.net/show.js';document.body.appendChild(pop_tag)};
-</script>
-
-	
 
     </body>
 <script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpbh-mt'},{'server':'p3plmcpnl488027'},{'dcenter':'p3'},{'cp_id':'8044159'},{'cp_cache':''},{'cp_cl':'6'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/traffic-assets/js/tccl.min.js'></script></html>
